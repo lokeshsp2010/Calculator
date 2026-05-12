@@ -13,7 +13,7 @@ if choice == '1':
     answer = num1 + num2
     print(f"The answer is: {answer}")
 elif choice == '2':
-    answer = num1 - num2
+    answer = num1 - num2                                                                                
     print(f"The answer is: {answer}")
 elif choice == '3':
     answer = num1 * num2
@@ -24,6 +24,5 @@ elif choice == '4':
     else:
         answer = num1 / num2
         print(f"The answer is: {answer}")
-
 else:
-    print("Oops! That's not a real choice! 🤪")
+    print("Invaild, try with a different number. :)")
